@@ -9,44 +9,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>410 Demo</title>
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link href="layout.css" rel="stylesheet" type="text/css">
-
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
  
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script src="respond.min.js"></script>
-</head>
-<body>
-<div class="gridContainer clearfix">
-  <header>
- 	<h1> Demo Widgets </h1>
-  	<nav>
-    	<a href="" title="">Home</a> 
-        <a href="" title="">About</a> 
-        <a href="" title="">Product</a> 
-        <a href="" title="">Contact</a> 
-  	</nav>
-  </header> 
-  
-  <section class="main">
-  <h2>Welcome </h2>
-  	<figure>
-    	<img src="images.jpg" alt="yellow and red floral pic" /> 
-     	<figcaption></figcaption>  
-  	</figure> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's type specimen book. It has survived not only five centuries, but also the leap into electronic types	</p> 
-    
-  </section> 
-  	<aside>
-  		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>           	
-    </aside>
-  
-  <footer>
-  <p>Demo Widgets&copy; 2013</p> 
-  </footer>
-</div>
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
 
+<body>
+<div class="container">
+  <header>
+    <a href="#"><img src="" alt="Insert Logo Here" width="220" height="120" id="Insert_logo"; display:block;" /></a>
+  </header>
+  
+   <?php require_once('includes/sidebar.inc.php'); ?> 
+    
+     <article class="content">
+    <h1>Journey through the Garden</h1>
+    <section>
+   
+      <p><img src="images/daylilly.jpg" alt="Day Lilly" width="725" height="150" /> </p>
+    </section>
+    <section>
+<p>In the late 19th century an eminent Columbia University botanist named Nathaniel Lord Britton and his wife, Elizabeth, also a botanist, were so inspired by their visit to England's Royal Botanic Gardens, Kew, that they and other members of the Torrey Botanical Club determined New York should possess a great botanical garden as well. A magnificent site was selected in the northern section of the Bronx, part of which had belonged to the vast estate of tobacco merchant Pierre Lorillard. </p> 
+   </section>
+    <section>
+        <h3>Daylily</h3>
+              <p>At the height of summer, Daylily/Daffodil Walk is alight with the radiance of daylilies. In all shades of yellow and orange, from blazingly bright to palest pastel, as well as tones of pink and red.</p>
+              <p> Three hundred and forty four different daylilies, showcase the diversity of this easy-to-grow perennial. </p>
+     
+    
+    </section>
+    
+  <!-- end .content --></article>  
+  
+  <?php require_once('includes/footer.inc.php'); ?>
+  <!-- end .container --></div>
 </body>
 </html>
